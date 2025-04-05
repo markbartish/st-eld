@@ -2,7 +2,7 @@
 
 DESTDIR ?= /usr/local/bin
 
-CC = gcc -Wall -g -O1
+CC = gcc -Wall -g -O1 -fcommon
 HDRS	= phylocom.h nrutil.h ecovolve.h stats.h
 OBJS	= main.o io.o new2fy.o aot.o traits.o comstruct.o nrutil.o fy2new.o bladj.o comnode.o combase.o prune.o comtrait.o stats.o
 OBJSP	= phylomatic.o io.o new2fy.o nrutil.o fy2new.o prune.o combase.o
